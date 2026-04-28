@@ -22,7 +22,7 @@ def load_postings():
     and one combined text column for the NLP section.
     """
     base = Path(__file__).resolve().parent
-    data_path = base / "postings.csv"
+    data_path = base / "data" / "postings_sample.csv" 
 
     df = pd.read_csv(data_path, usecols=lambda c: c in USECOLS)
 
