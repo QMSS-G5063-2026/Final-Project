@@ -18,17 +18,6 @@ st.markdown(
     "and what are employers asking for?"
 )
 
-# ── Key metrics ─────────────────────────────────────────────────────────────
-c1, c2, c3 = st.columns(3)
-c1.metric("Postings", f"{len(filtered):,}")
-c2.metric("States", f"{filtered['state'].nunique():,}")
-c3.metric(
-    "Median salary",
-    f"${filtered['salary_mid'].median():,.0f}" if filtered["salary_mid"].notna().any() else "N/A",
-)
-
-st.divider()
-
 # ── Sections ────────────────────────────────────────────────────────
 st.subheader("Explore the project")
 
