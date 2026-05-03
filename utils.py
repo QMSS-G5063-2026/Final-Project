@@ -220,8 +220,8 @@ def note(text):
     """Small narrative box used throughout the app."""
     st.markdown(
         f"""
-        <div style="background:skyblue;border:1px solid #DCE3ED;border-radius:10px;
-                    padding:14px 16px;margin:10px 0 18px 0;line-height:1.5;">
+        <div style="background:skyblue;border:1px solid #B6D4FE;border-radius:10px;
+                    padding:14px 16px;margin:10px 0 18px 0;line-height:1.5; color:#1f2d3d">
             {text}
         </div>
         """,
