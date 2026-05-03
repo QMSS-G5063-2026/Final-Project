@@ -59,11 +59,6 @@ with right:
     )
     st.plotly_chart(clean_plot(fig_work), width="stretch")
 
-note(
-    "The salary chart should be read carefully because not every posting reports pay. I kept the salary-coverage "
-    "metric visible so the audience can see this limitation instead of assuming the salary results represent every job."
-)
-
 st.divider()
 
 # ── Salary by experience level ──────────────────────────────────────────────

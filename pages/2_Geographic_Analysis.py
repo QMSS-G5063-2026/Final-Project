@@ -76,8 +76,6 @@ note(
 st.divider()
 
 # ── Linked state comparison ─────────────────────────────────────────────────
-st.divider()
-
 st.subheader("Linked state comparison")
 
 note(
